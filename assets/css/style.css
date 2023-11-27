@@ -29,6 +29,18 @@ body::before {
   z-index: -1;
 }
 
+/* #h2 animasiku {
+  width: 0ch;
+  color: white;
+  float: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 5s steps(22) 1s infinite alternate;
+} */
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
