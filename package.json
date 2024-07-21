@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.3"
-  }
+    "bootstrap": "^5.3.3",
+    "three": "^0.166.1"
+  },
+  "name": "my-portofolioku",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedyputra/My-Portofolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dedyputra/My-Portofolio/issues"
+  },
+  "homepage": "https://github.com/dedyputra/My-Portofolio#readme"
 }
