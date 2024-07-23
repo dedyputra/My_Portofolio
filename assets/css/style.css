@@ -2,8 +2,7 @@
 # kuy css
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   position: relative;
   background: transparent;
@@ -18,20 +17,7 @@ body::before {
   right: 0;
   top: 0;
   height: 100vh;
-  z-index: -1;
 }
-
-/* #h2 animasiku {
-  width: 0ch;
-  color: white;
-  float: left;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 60px;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 5s steps(22) 1s infinite alternate;
-} */
 
 @media (min-width: 1024px) {
   body::before {
@@ -55,14 +41,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0s;
   position: relative;
   height: 100vh;
   display: flex;
@@ -424,20 +410,17 @@ section .container {
 }
 
 .about-me .content ul li {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.about-me .content ul strong {
-  margin-right: 10px;
+  padding-bottom: 10px;
 }
 
 .about-me .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
+  font-size: 20px;
+  padding-right: 2px;
   color: #18d26e;
-  line-height: 0;
+}
+
+.about-me .content p {
+  text-align: justify;
 }
 
 .about-me .content p:last-child {
@@ -467,9 +450,8 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #1c7d32;
   border-radius: 50px;
-  line-height: 0;
 }
 
 .counts .count-box span {
@@ -482,7 +464,7 @@ section .container {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
@@ -490,15 +472,14 @@ section .container {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 50px;
   display: block;
   background: none;
-  border-radius: 0;
 }
 
 .skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
+  padding: 0;
+  margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
@@ -512,7 +493,7 @@ section .container {
 }
 
 .skills .progress-bar-wrap {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .skills .progress-bar {
@@ -521,6 +502,7 @@ section .container {
   transition: 0.9s;
   background-color: #18d26e;
 }
+
 
 /*--------------------------------------------------------------
 # Interests
